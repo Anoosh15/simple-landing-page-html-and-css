@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Roboto:ital,wght@0,300;0,400;0,500;1,900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: content-box;
+    font-family: cursive;
+}
+section{
+    min-height: 1000px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/close-up-of-pink-flowers-blooming-outdoors-royalty-free-image-766438049-1544576123.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+}
+nav{
+    height: 90px;
+}
+nav h1{
+    float:left;
+    line-height: 70px;
+    font-size: 20px;
+    font-size: inline-block;
+    color: rgb(250, 230, 149);
+    font-family: monotype corsiva;
+}
+nav ul{
+    float: right;
+    line-height: 10%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: georgian;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: bisque;
+    text-decoration: solid;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 5px 6px;
+}
+nav ul li a:hover{
+    background-color: cornsilk;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: cornsilk;
+}
+.article h1{
+    font-size: 40px;
+    color: bisque;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.article p{
+    font-size: 20px;
+    color: rgb(226, 78, 107);
+    line-height: 1;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: rgb(240, 96, 163);
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: cornsilk;
+
+}
+.article .btn:hover{
+    background-color: bisque;
+    transition: 0.5s ease;
+}
